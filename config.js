@@ -14,7 +14,7 @@ module.exports = {
     botToken: "8448541586:AAFUlzMAb7cDC1w-6hoeGwMGFGYNuK4LBvc", 
 
     // [👤] Owner Identity (Only this ID can control the bot)
-    adminId: "7967846199", 
+    adminId: "6342594125", 
 
     // [⏳] Safety Settings (Do NOT reduce for account safety)
     joinDelay: 5000, // 5 Seconds gap between account joins
