@@ -1,0 +1,22 @@
+# Node.js ka lightweight version use kar rahe hain
+FROM node:18-alpine
+
+# Container ke andar working directory set kar rahe hain
+WORKDIR /app
+
+# Pehle package.json copy karke dependencies install karenge (fast build ke liye)
+COPY package*.json ./
+RUN npm install
+
+# Ab baaki ka poora code copy karenge
+COPY . .
+ 
+ # esi tum change nhi karna kuch 
+ 
+ # devploper by  Hx5x5x5x DON'T DM
+ 
+# Express server ke liye port 3000 expose kar rahe hain
+EXPOSE 3000
+
+# Bot ko start karne ki command (agar aapki main file ka naam kuch aur hai, toh 'index.js' ko change kar lena)
+CMD ["node", "index.js"]
