@@ -11,7 +11,7 @@ module.exports = {
  
  //apna dalo 👆👆👆API HASH  AND APIID
     // [🤖] Bot Control Settings (@BotFather)
-    botToken: "8790216451:AAHXo-HKzuj0pqkcGHH3PSsaP85s59-ff1E", 
+    botToken: "8448541586:AAFUlzMAb7cDC1w-6hoeGwMGFGYNuK4LBvc", 
 
     // [👤] Owner Identity (Only this ID can control the bot)
     adminId: "7967846199", 
